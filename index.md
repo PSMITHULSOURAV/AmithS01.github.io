@@ -1,101 +1,116 @@
-
+<!DOCTYPE html>
 <html>
-	<head>
-		<title> Amith S </title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
-		<link href='https://fonts.googleapis.com/css?family=Handlee' rel='stylesheet'>
-		<link href='https://fonts.googleapis.com/css?family=McLaren' rel='stylesheet'>
-		<link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet'>
-		<link href="https://fonts.googleapis.com/css?family=KoHo" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Calibri:400,700,400italic,700italic" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Raleway:900&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body class="w3-light-grey">
 
-		<meta name="Referrer" content="origin" />
-		
-		<link rel="icon" href="square.png">
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
 
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="/w3images/avatar_hat.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Amith S</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Hacker, Student</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Mangalore, India</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>amith0755@gmail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>7760415252</p>
+          <hr>
 
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>Adobe Photoshop</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>
+          <p>Photography</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+          <p>Illustrator</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+          </div>
+          <p>Media</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">77%</div>
+          </div>
+          <br>
 
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>Kannada</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+          </div>
+          <p>Hindi</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
 
-		<style type="text/css">
-			a {
-				cursor: pointer;
-			}
-		</style>
-		<!-- Google Analytics Code -->
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <!-- End Left Column -->
+    </div>
 
-		  ga('create', 'UA-103589215-2', 'auto');
-		  ga('send', 'pageview');
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Front End Developer </b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Web Developer / Kirra.com
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>         <hr>
+        </div>
+       
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>School of Coding</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
+          <p>Bachelor Degree</p><br>
+        </div>
+      </div>
 
-		</script>
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
 
-		
-		<!-- <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
-		<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-database.js"></script> 
-		 -->
-		<script type="text/javascript" src="eurekafiles/biowords.json"></script>
-		<script type="text/javascript" src="eurekafiles/economicswords.json"></script>
-		
-		
-	
-		<script type="application/ld+json">
-			{
-			  "@type": "Projects",
-			  "name": "Amith S Projects Page",
-			  "author": "Amith S",
-			  "description": "All web projects/experiments related to Hacking"
-			  }
-		</script>
-		  <meta charset="UTF-8">
-  		  <meta name="description" content="A collection experiments and projects related to hacking,coding and computer science">
-		  <meta name="keywords" content="Hack the praisers....or praise the hackers!">
-		  <meta name="author" content="Amith">
-		  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	</head>
-	<body style='margin:0px; display: block:'>
-		<div id="containAll" style='margin:0px;width:100%; height: 100%; font-size: 0;'> 
-			<div id='maintitle' height="100%" width="100%" style="z-index:1; position: relative; box-shadow: 0px 20px 100px rgba(0,0,0,0.5); overflow: hidden; height: 70%; background-color: black;" >
-				<div id="ringvisualH" style='margin:0px;width:100%; height: 100%;overflow: hidden; cursor: auto; position: absolute; z-index: 1; opacity: 1;'>
-				</div>
-				<div id="containIntro" style='margin:0px;width:100%; height: 100%;overflow: hidden;background: hsla(300,100%,0%,0.6); cursor: auto; position: relative; z-index: 7; opacity: 1;'>
-					<div id="menuholder" style='margin:0px;width:40%; height: 5%;overflow: hidden;background: hsla(300,100%,0%,0); cursor: auto; position: relative; z-index: 7; opacity: 1; transform: translate(-100%,-5%); left: 100%; top: 5%; '>
-						<div id="diveInM1" onclick="document.getElementById('slide11').scrollIntoView({behavior: 'smooth'});" target = "_self" style='margin:0px;overflow: hidden; position: relative; transition: background 0.5s; background: hsla(250,100%,50%,0); width: 30%; height: 100%;  border-color: hsla(260,100%,50%,0); cursor: pointer; display: inline-block;'>
-							
-							<div id="diveInTextM1" style='margin:0px;overflow: hidden;text-align: center; font-family: Calibri; font-size: 1.3vw; transform: translate(-50%,-50%); left: 50%; top: 50%; position: relative; color: hsla(185,100%,100%,1); '>
-								Projects
-							</div>
-						</div>
-						<div id="diveInM2" onclick="window.open('https://prajwalsouza.github.io/Courses.html')" style='margin:0px;overflow: hidden; position: relative; transition: background 0.5s; background: hsla(250,100%,50%,0); width: 30%; height: 100%; border-color: hsla(260,100%,50%,0); cursor: pointer; display: inline-block;'>
-							
-							<div id="diveInTextM2" style='margin:0px;overflow: hidden;text-align: center; font-family: Calibri; font-size: 1.3vw; transform: translate(-50%,-50%); left: 50%; top: 50%; position: relative; color: hsla(185,100%,100%,1); '>
-								Hacker and also a student!
-							</div>
-						</div>
-						<div id="diveInM3" onclick="window.open('https://github.com/prajwalsouza')" style='margin:0px;overflow: hidden; position: relative; transition: background 0.5s; background: hsla(250,100%,50%,0); width: 30%; height: 100%; border-color: hsla(260,100%,50%,0); cursor: pointer; display: inline-block;'>
-							
-							<div id="diveInTextM3" style='margin:0px;overflow: hidden;text-align: center; font-family: Calibri; font-size: 1.3vw; transform: translate(-50%,-50%); left: 50%; top: 50%; position: relative; color: hsla(185,100%,100%,1); '>
-								Github
-							</div>
-						</div>
-					</div>
-					<div id="TitleText" style='margin:0px;overflow: hidden;text-align: center; font-family: Raleway; font-weight: lighter; font-size: 10vmin; transform: translate(-50%,-40%); left: 50%; top: 40%; position: relative; color: hsla(190,100%,100%,1); '>
-							AmithS01.github.io
-					</div>
-					
-					<div id="DescriptionText" style='margin:0px;overflow: hidden;text-align: center; font-family: McLaren; font-size: 3vmin; transform: translate(-50%,-50%); left: 50%; top: 50%; position: relative; color: hsla(185,100%,100%,1); '>
-							Hi. I'm Amith S. It's my Hack-Tools page.
-					</div>
-					<div id="contactdetails" style='margin:0px;overflow: hidden;text-align: center; font-family: Calibri; font-size: 2.3vmin; transform: translate(-50%,-60%); left: 50%; top: 60%; position: relative; color: hsla(185,10%,100%,1); '>
-							<i class="fas fa-envelope"></i> amith0755@gmail.com &nbsp &nbsp &nbsp &nbsp<i class="fas fa-map-marker-alt"></i> India
-					</div>
-				</div>
-			</div>
-	</body>
-<html>
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p
+  <i class="fa fa-instagram w3-hover-opacity">@am_a_myth2020</i>
+</footer>
+
+</body>
+</html>
