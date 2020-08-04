@@ -1,116 +1,226 @@
-<!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <head>
+  
+ </head>
+ <body>
+<h1 class="header" align="center">Enter The Numbers Below</h1>
+<input id="in1" placeholder="Enter The First Number"> <input id="in2" placeholder="Enter The Second Number">
+<br/><br/>
+<button class="but1" onclick="sup()">Find The HCF</button>
+<br/><br/>
+<div class="one" align="center"><span id="clas"></span></div>
+<p id="par1" align="center">Thank you for using this calculator, this is one of my projects , hope you like it.</p>
+<br/>
+<br/>
+<div id="sub1">
+<p id="intro">Now that you've used the calculator, let me tell you about me.</p>
+<ul id="about">
+<h3>This is how I spend most of my time</h3>
+<br/>
+<li>School <br/>
+<progress id="bar1" max="24" min="0" value="5"></progress>
+</li>
+<li>Extra Classes <br/>
+<progress id="bar2" max="24" min="0" value="6">
+</li>
+<li>Hacking<br/>
+<progress id="bar3" max="24" min="0" value="4">
+</li>
+<li>Eating(Breakfast, Lunch, Snacks & Dinner) <br/>
+<progress id="bar4" max="24" min="0" value="4">
+</li>
+<li>Daydreaming <br/>
+<progress id="bar5" max="24" min="0" value="10">
+</li>
+<li>Sleeping <br/>
+<progress id="bar6" max="24" min="0" value="14">
+</li>
+<li>Youtube<br/>
+<progress max="24" min="0" value="5">
+  </li>
+ </ul>
+ </body>
+  </html>
+
+<script>
+var ans1=0;
+var swt1=0;
+
+
+sup();
+
+function sup(){
+var testno1=document.getElementById("in1").value;
+var testno2=document.getElementById("in2").value;
+if(testno1/testno2 < 1){
+var no1=testno2;
+var no2=testno1;
+} else{
+var no1=testno1;
+var no2=testno2;
+}
+var rem1=no1%no2;
+var rem2=no2%rem1;
+var rem3=rem1%rem2;
+var rem4=rem2%rem3;
+var rem5=rem3%rem4;
+var rem6=rem4%rem5;
+var rem7=rem5%rem6;
+var rem8=rem6%rem7;
+var rem9=rem7%rem8;
+var rem10=rem8%rem9;
+var rem11=rem9%rem10;
+var rem12=rem10%rem11;
+var rem13=rem11%rem12;
+var rem14=rem12%rem13;
+var rem15=rem13%rem14;
+var rem16=rem14%rem15;
+var rem17=rem15%rem16;
+var rem18=rem16%rem17;
+var rem19=rem17%rem18;
+var rem20=rem18%rem19;
+
+if(rem1==0){
+ans1=no2;
+}
+if(rem2==0){
+ans1=rem1;
+}
+if(rem3==0){
+ans1=rem2;
+}
+if(rem4==0){
+ans1=rem3;
+}
+if(rem5==0){
+ans1=rem4;
+}
+if(rem6==0){
+ans1=rem5;
+}
+if(rem7==0){
+ans1=rem6;
+}
+if(rem8==0){
+ans1=rem7;
+}
+if(rem9==0){
+ans1=rem8;
+}
+if(rem10==0){
+ans1=rem9;
+}
+if(rem11==0){
+ans1=rem10;
+}
+if(rem12==0){
+ans1=rem11;
+}
+if(rem13==0){
+ans1=rem12;
+}
+if(rem14==0){
+ans1=rem13;
+}
+if(rem15==0){
+ans1=rem14;
+}
+if(rem16==0){
+ans1=rem15;
+}
+if(rem17==0){
+ans1=rem16;
+}
+if(rem18==0){
+ans1=rem17;
+}
+if(rem19==0){
+ans1=rem18;
+}
+if(rem20==0){
+ans1=rem19;
+}
+
+
+var display1= document.getElementById("clas");
+display1.innerHTML= "The HCF of "+testno1+" and "+ testno2 +" "+ "is = "+ans1;
+}
+
+ 
+</script> 
 <style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+div.one{
+ font-weight:bolder;
+ font-size:30px;
+}
+
+body{
+background-color:#efefef
+
+}
+
+h1.header{
+font-color:"black";
+padding:10px;
+border-radius:12px
+
+
+}
+
+#par1{
+font-weight:bold;
+font-size:large;
+font-style:italic;
+padding:8px;
+border-radius:12px;
+background-color:#fff;
+}
+
+intro{
+text-indenting:13px;
+font-weight:bold;
+font-size:large;
+}
+
+.clas{
+font-weight:bolder;
+}
+
+.one{
+padding:7px;
+border-radius:12px;
+background-color:#fff;
+background-image:url("")
+
+}
+
+div#sub1{
+padding:80px;
+background-color:#ffffff;
+border-radius:25px;
+}
+#in2{
+width:300px;
+height:30px;
+align:"right";
+}
+
+#in1{
+width:300px;
+height:30px;
+align:"right";
+}
+button{
+width:200px;
+height:30px;
+font-weight:bolder;
+background-color:#ff9c52;
+border-radius:14px;
+
+}
+
 </style>
-<body class="w3-light-grey">
 
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-  
-    <!-- Left Column -->
-    <div class="w3-third">
-    
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <img src="/w3images/avatar_hat.jpg" style="width:100%" alt="Avatar">
-          <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h2>Amith S</h2>
-          </div>
-        </div>
-        <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Hacker, Student</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Mangalore, India</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>amith0755@gmail.com</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>7760415252</p>
-          <hr>
 
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          <p>Adobe Photoshop</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
-          </div>
-          <p>Photography</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
-              <div class="w3-center w3-text-white">80%</div>
-            </div>
-          </div>
-          <p>Illustrator</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
-          </div>
-          <p>Media</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">77%</div>
-          </div>
-          <br>
-
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-          <p>English</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-          </div>
-          <p>Kannada</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
-          </div>
-          <p>Hindi</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
-          </div>
-          <br>
-        </div>
-      </div><br>
-
-    <!-- End Left Column -->
-    </div>
-
-    <!-- Right Column -->
-    <div class="w3-twothird">
-    
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Front End Developer </b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Web Developer / Kirra.com
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>         <hr>
-        </div>
-       
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>School of Coding</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
-          <p>Bachelor Degree</p><br>
-        </div>
-      </div>
-
-    <!-- End Right Column -->
-    </div>
-    
-  <!-- End Grid -->
-  </div>
-  
-  <!-- End Page Container -->
-</div>
-
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on social media.</p
-  <i class="fa fa-instagram w3-hover-opacity">@am_a_myth2020</i>
-</footer>
-
-</body>
-</html>
+ 
